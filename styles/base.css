@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+
+:root {
+  --primary-color: #E63946;
+  --secondary-color:#551A8B;
+  --accent1-color: #6EA0BF;
+  --accent2-color: #E6F2FF;
+
+  --heading-font: 'Merriweather', sans-serif;
+  --paragraph-font: 'Roboto', sans-serif;
+
+  --nav-background-color: #6EA0BF;
+  --nav-link-color: #551A8B;
+  --nav-hover-link-color: #E63946;
+  --nav-hover-background-color:#E6F2FF;
+}
+
+body {
+    font-family: var(--paragraph-font);
+  }
+
+
+  header, main, footer {
+    
+    margin: 1rem auto;
+    border: 1px solid var(--accent2-color);
+    padding: 1rem;
+    background-color: #e6f2ff;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+  
+  section {
+    padding: 1rem;
+    background-color: #fff;
+  }
+
+  
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  
+  header {
+    background-color: var(--accent2-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  header img{
+    width: 100px;
+    height: 100px;
+  }
+  
+  .giframe{
+    max-width: 767px;
+    margin: 0 auto;
+  }
+
+  header, main {
+    max-width: 767px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  .hero {
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid rgba(0,0,0,.1);
+    height: 300px;
+    
+  }
+
+  .giframe-2{
+    width:100%;
+    height:450px;
+    border: 0;
+  }
+
+  .hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .herolabel {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: radial-gradient(#fff, #4D5B97);
+    border: 1px solid rgba(0,0,0,.75);
+    padding: 1.5rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+    
+  }
+  
+  .herolabel p {
+    margin: 0;
+    padding: .25rem;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family:"Great Vibes", serif;
+  }
+ 
+  
+  footer{
+    max-width: 767px;
+    text-align: center;
+   
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  nav {
+    background-color: var(--nav-background-color);
+    margin: 0 auto;
+    
+    max-width: 767px;
+  }
+  nav ul {
+    list-style-type: none;
+  }
+
+  #activities-container {
+    list-style-type: none;
+  }
+
+  nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    border: 1px solid #fff;
+  }
+  
+  .active {
+    color: yellow;
+  }
+  
+  section h3{
+    text-align: center;
+    
+    
+    
+  }
+  
+  #darkModeButton {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+
+  /* Hamburger Menu */
+
+  #hamburgerButton{
+    font-size: 2rem;
+    color: var(--accent2-color);
+    background: var(--accent1-color);
+    border-radius: 4px;
+    margin: 5px;
+  
+  }
+  
+  #mainMenu {
+    display: none;
+  }
+
+  #mainMenu.show {
+    display: block;
+  }
+
+  /* Dark Mode */
+  .dark-mode {
+    background-color: #222;
+    color: #fff;
+  }
+
+  .dark-mode h1 {
+    color: #fff;
+  }
+  .dark-mode a {
+    color: #fff;
+  }
+
+
+  .dark-mode nav {
+    background-color: #333;
+  }
+
+  .dark-mode nav a {
+    color: #fff;
+  }
+
+  .dark-mode nav a:hover {
+    border: 1px solid #fff;
+  }
+
+  .dark-mode section {
+    background-color: #444;
+  }
+
+  .dark-mode footer {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .cent-wet{
+    text-align: center;
+  }
