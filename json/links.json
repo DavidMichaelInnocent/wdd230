@@ -29,13 +29,31 @@
 
       },
       {
-        "week": "Week 03"
+        "week": "Week 03",
+        "links":[
+          {
+            "url": ""
+          }
+        ]
+
       },
       {
-        "week": "Week 04"
+        "week": "Week 04",
+        "links":[
+          {
+            "url": ""
+          }
+        ]
+
       },
       {
-        "week": "Week 05"
+        "week": "Week 05",
+        "links":[
+          {
+            "url": ""
+          }
+        ]
+
       }
     ]
   }
