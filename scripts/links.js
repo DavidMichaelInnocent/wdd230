@@ -22,7 +22,7 @@ async function getLinks() {
 
     weeks.forEach((week, index) => {
       const listItem = document.createElement('li');
-      listItem.textContent = `${week.week}: `;
+      listItem.textContent = `${week.week} `;
       
       week.links.forEach((link, linkIndex) => {
         const linkAnchor = document.createElement('a');
