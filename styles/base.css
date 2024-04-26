@@ -228,3 +228,7 @@ body {
   .cent-wet{
     text-align: center;
   }
+  
+  .single{
+    display: flex;
+  }
