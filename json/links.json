@@ -23,7 +23,16 @@
         "week": "Week 02",
         "links":[
           {
-            "url": ""
+            "url": "week02/design.html",
+            "title": "Design"
+          },
+          {
+            "url": "https://codepen.io/DavidMichaelInnocent/details/xxeeezQ",
+            "title": "Code Pen"
+          },
+          {
+            "url": "week02/bom.html",
+            "title": "Bom Top 10"
           }
         ]
 
