@@ -12,7 +12,7 @@
   --nav-background-color: #6EA0BF;
   --nav-link-color: #551A8B;
   --nav-hover-link-color: #E63946;
-  --nav-hover-background-color:#E6F2FF;
+  --nav-hover-background-color:#e6f2ff;
 }
 
 body {
@@ -119,7 +119,7 @@ body {
   #hamburgerButton{
     font-size: 2rem;
     color: var(--accent2-color);
-    background: var(--accent1-color);
+    background-color: #222;
     border-radius: 4px;
     margin: 5px;
   
