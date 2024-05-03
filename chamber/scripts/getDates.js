@@ -6,33 +6,32 @@ yearSpan.textContent = new Date().getFullYear();
 const lastModifiedSpan = document.getElementById('lastModified');
 lastModifiedSpan.textContent = 'Last Modified: ' + document.lastModified;
 
-// Get the timestamp
-function setCurrentTimestamp() {
-    var timestampField = document.getElementById("timestamp");
-    var currentTimestamp = new Date().toISOString();
-    timestampField.value = currentTimestamp;
+
+//validate password
+
+var password = document.getElementById("password") , confirm_password = document.getElementById("confirm_password");
+
+
+function validatePassword(){
+  if(password.value != confirm_password.value) {
+    confirm_password.setCustomValidity("Passwords Don't Match");
+  } else {
+    confirm_password.setCustomValidity('');
   }
+}
 
-  // Call the function when the form is loaded
-  window.addEventListener("load", setCurrentTimestamp);
-
-  
-
-//Weather date
-const yearSpan_1 = document.getElementById('weather-day');
-const yearSpan_2 = document.getElementById('weather-day-2');
-const yearSpan_3 = document.getElementById('weather-day-3');
+password.onchange = validatePassword;
+confirm_password.onkeyup = validatePassword;
 
 
+//range bar
+const rangevalue = document.getElementById("rangevalue");
+const range = document.getElementById("r");
 
-let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-let d = new Date();
-let dayName = days[d.getDay()];
-let dayName_2 = days[d.getDay()+1];
-let dayName_3 = days[d.getDay()+2];
-yearSpan_1.textContent = dayName;
-yearSpan_2.textContent = dayName_2;
-yearSpan_3.textContent = dayName_3;
+// RANGE event listener
+range.addEventListener('change', displayRatingValue);
+range.addEventListener('input', displayRatingValue);
 
-
-
+function displayRatingValue() {
+    rangevalue.innerHTML = range.value;
+}
