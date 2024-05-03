@@ -6,11 +6,16 @@ yearSpan.textContent = new Date().getFullYear();
 const lastModifiedSpan = document.getElementById('lastModified');
 lastModifiedSpan.textContent = 'Last Modified: ' + document.lastModified;
 
+// Display phone number
+const phoneSpan = document.getElementById('phone');
+phoneSpan.textContent = 'Call US: +2349038519171';
 
-//validate password
+// Display email address
+const emailSpan = document.getElementById('email');
+emailSpan.textContent = 'Email: mic23002@byui.edu';
 
-var password = document.getElementById("password") , confirm_password = document.getElementById("confirm_password");
-
+// Validate password
+var password = document.getElementById("password"), confirm_password = document.getElementById("confirm_password");
 
 function validatePassword(){
   if(password.value != confirm_password.value) {
@@ -23,8 +28,7 @@ function validatePassword(){
 password.onchange = validatePassword;
 confirm_password.onkeyup = validatePassword;
 
-
-//range bar
+// Range bar
 const rangevalue = document.getElementById("rangevalue");
 const range = document.getElementById("r");
 
