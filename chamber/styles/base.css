@@ -99,7 +99,7 @@ body {
   } */
 
   .h1-name{
-    color: #fff;
+    color: #ffffff;
     font-size: larger;
   }
 
@@ -108,7 +108,7 @@ body {
    #hamburgerButton{
     font-size: 3rem;
     color: var(--accent2-color);
-    background: var(--accent1-color);
+    background-color: #222;
     border-radius: 4px;
     margin: 5px;
     cursor: pointer;
