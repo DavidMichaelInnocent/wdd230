@@ -176,7 +176,7 @@ body {
   #hamburgerButton{
     font-size: 2rem;
     color: var(--accent2-color);
-    background: var(--accent1-color);
+    background-color: #222;
     border-radius: 4px;
     margin: 5px;
   
