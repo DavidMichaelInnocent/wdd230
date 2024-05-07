@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
 
 :root {
   --primary-color: #E63946;
@@ -12,7 +12,7 @@
   --nav-background-color: #6EA0BF;
   --nav-link-color: #551A8B;
   --nav-hover-link-color: #E63946;
-  --nav-hover-background-color:#e6f2ff;
+  --nav-hover-background-color:#E6F2FF;
 }
 
 body {
@@ -62,6 +62,11 @@ body {
     width: 100px;
     height: 100px;
   }
+  
+  .giframe{
+    max-width: 767px;
+    margin: 0 auto;
+  }
 
   header, main {
     max-width: 767px;
@@ -69,6 +74,47 @@ body {
     padding: 1rem;
   }
 
+  .hero {
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid rgba(0,0,0,.1);
+    height: 300px;
+    
+  }
+
+  .giframe-2{
+    width:100%;
+    height:450px;
+    border: 0;
+  }
+
+  .hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .herolabel {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: radial-gradient(#fff, #4D5B97);
+    border: 1px solid rgba(0,0,0,.75);
+    padding: 1.5rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+    
+  }
+  
+  .herolabel p {
+    margin: 0;
+    padding: .25rem;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family:"Great Vibes", serif;
+  }
+ 
+  
   footer{
     max-width: 767px;
     text-align: center;
@@ -100,10 +146,21 @@ body {
     padding: 1rem;
     text-decoration: none;
   }
-
-
-
-
+  
+  nav a:hover {
+    border: 1px solid #fff;
+  }
+  
+  .active {
+    color: yellow;
+  }
+  
+  section h3{
+    text-align: center;
+    
+    
+    
+  }
   
   #darkModeButton {
     position: absolute;
@@ -119,7 +176,7 @@ body {
   #hamburgerButton{
     font-size: 2rem;
     color: var(--accent2-color);
-    background-color: #222;
+    background: var(--accent1-color);
     border-radius: 4px;
     margin: 5px;
   
@@ -168,4 +225,6 @@ body {
     color: #fff;
   }
 
-
+  .cent-wet{
+    text-align: center;
+  }
