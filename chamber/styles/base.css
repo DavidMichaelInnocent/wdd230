@@ -300,9 +300,12 @@ body {
  .grid-container {
   grid-template-columns: 1fr;
 
-}      
 
+}
 
+.bullet {
+  list-style-position: inside;
+}
 .field {
   background-color: #ffffff;
   padding: 10px;
@@ -319,7 +322,7 @@ body {
 }
 
 .field p{
-  color: var(--nav-hover-link-color);
+  color: #9c2c13;
   font-weight: bolder;
 }
 
@@ -334,7 +337,6 @@ body {
 }
 
 .Visits-cont, .vis-ct{
-  color: var(--secondary-color);
   font-style: italic;
   font-size: larger;
 }
