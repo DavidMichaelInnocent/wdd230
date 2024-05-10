@@ -305,7 +305,9 @@ body {
 
 .bullet {
   list-style-position: inside;
+  margin-left: auto;
 }
+
 .field {
   background-color: #ffffff;
   padding: 10px;
