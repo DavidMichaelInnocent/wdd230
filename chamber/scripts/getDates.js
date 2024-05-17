@@ -7,12 +7,12 @@ const lastModifiedSpan = document.getElementById('lastModified');
 lastModifiedSpan.textContent = 'Last Modified: ' + document.lastModified;
 
 // Display phone number
-const phoneSpan = document.getElementById('phone');
+const phoneSpan = document.getElementById('phone1');
 phoneSpan.textContent = 'Call US: +2349038519171';
 
 // Display email address
 const emailSpan = document.getElementById('email');
-emailSpan.textContent = 'Email: mic23002@byui.edu';
+emailSpan.textContent = 'Email1: mic23002@byui.edu';
 
 // Validate password
 var password = document.getElementById("password"), confirm_password = document.getElementById("confirm_password");
