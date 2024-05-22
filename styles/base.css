@@ -19,7 +19,6 @@ body {
     font-family: var(--paragraph-font);
   }
 
-
   header, main, footer {
     
     margin: 1rem auto;
@@ -233,4 +232,23 @@ body {
 
   .cent-wet{
     text-align: center;
+  }
+  
+  .info {
+    background-color: #4D5B97;
+    color: #fff;
+    padding: 1rem;
+    width: 100;
+
+  }
+
+  .card {
+    border: solid 5pt #999;
+    border-radius: 4px;
+  }
+
+  .card2 {
+    border: solid 5pt #999;
+    border-radius: 4px;
+    
   }

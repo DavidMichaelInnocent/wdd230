@@ -1,0 +1,29 @@
+{
+    "familyName": "Michael",
+    "moveInDate": "2024-05-20",
+    "familySize": 4,
+    "visitedByBishopric": true,
+    "familyMembers": [
+      {
+        "name": "Blessings Michael",
+        "gender": "Female",
+        "birthdate": "1990-05-12"
+      },
+      {
+        "name": "Mosese Michael",
+        "gender": "Male",
+        "birthdate": "1992-08-18"
+      },
+      {
+        "name": "Sarah Michael",
+        "gender": "Female",
+        "birthdate": "2000-11-05"
+      },
+      {
+        "name": "David Michael",
+        "gender": "Male",
+        "birthdate": "1995-06-05"
+      }
+    ]
+  }
+  

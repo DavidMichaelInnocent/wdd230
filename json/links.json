@@ -32,7 +32,7 @@
           },
           {
             "url": "week02/bom.html",
-            "title": "Bom Top 10"
+            "title": "BOM25"
           }
         ]
 
@@ -41,7 +41,20 @@
         "week": "Week 03",
         "links":[
           {
-            "url": ""
+            "url": "week03/images/landscape.webp",
+            "title": "Webp"
+          },
+          {
+            "url": "wee03/lazyload.html",
+            "title": "LaZY"
+          },
+          {
+            "URL": "wee03/resposive-images.html",
+            "title": "Srcset"
+          },
+          {
+            "url": "week03/localStorage.html",
+            "title": "LoacalStorage"
           }
         ]
 
@@ -50,7 +63,20 @@
         "week": "Week 04",
         "links":[
           {
-            "url": ""
+            "url": "https://codepen.io/DavidMichaelInnocent/pen/OJYXbjW",
+            "title": "CSS Pseudo"
+          },
+          {
+            "url": "week04/image/screenshot.png",
+            "title": "CSS Conbinators"
+          },
+          {
+            "url": "week04/tablebuild.html",
+            "title": "HTML Table"
+          },
+          {
+            "url": "form-start/index.html",
+            "title": "HTML Forms"
           }
         ]
 
@@ -59,16 +85,20 @@
         "week": "Week 05",
         "links":[
           {
-            "url": ""
-          }
-        ]
-
-      },
-      {
-        "week": "Week 06",
-        "links":[
+            "url": "https://codepen.io/DavidMichaelInnocent/pen/MWdebPz",
+            "title": "CSS Pseudo-elements",
+          },
           {
-            "url": ""
+            "url": "weeek05/new-ward-members.json",
+            "title": "JSON"
+          },
+          {
+            "url": "week05/prophets.html",
+            "title": "Fetct API"
+          },
+          {
+            "url": "week05/weather.html",
+            "title": "Weather"
           }
         ]
 
