@@ -62,8 +62,17 @@
         "image": "member7.webp",
         "membership": "Bronze",
         "otherInfo": "Cutting-edge Technology"
-      }
+      },
       
+      {
+        "name": "Blessing",
+        "address": "931 Aline ft, Ibadan",
+        "phone": "422-980-7651",
+        "website": "directory.html",
+        "image": "member8.webp",
+        "membership": "Bronze",
+        "otherInfo": "Marketing Industry"
+      }
     ]
   }
   

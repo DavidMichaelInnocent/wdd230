@@ -7,7 +7,7 @@
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://www.krazybutterfly.com/wp-content/uploads/2023/03/Lagos-Nigeria.jpg">
   <meta property="og:url" content="https://davidmichaelinnocent.github.io/wdd230/">
-  <title>9ja Trust Chamber of Commerce</title>
+  <title>Directory Chamber of Commerce</title>
   <meta name="description" content="Homepage for 9ja Trust Chamber of commerce">
   <meta name="author" content="David Michael Innocent">
   <link rel="icon" href="images/favicons.ico">
@@ -20,10 +20,9 @@
 <body>
     
   <header>
-    
     <button id="hamburgerButton">&#8801;</button>
     <img src="images/logo.png" alt="logo">
-    <h1>9ja Trust Chamber of commerce</h1>
+    <h1 class="h1-name">9ja Trust Chamber of commerce</h1>
   </header>
   <nav id="mainMenu">
     
@@ -32,27 +31,29 @@
       
       <li class="reset"><a href="index.html">Home</a></li>
       <li class="reset"><a href="discover.html">Discover</a></li>
-      <li class="reset"><a href="directory.html">Directory</a></li>
+      <li class="reset"><a href="directory.html" class="active">Directory</a></li>
       <li class="reset"><a href="join.html">Join</a></li>
     </ul>
   </nav>
-    <div class="header-content">
-        <img src="images/home.jpg" alt="Profile Image">
-        <div class="cta-btn"><a href="join.html" class="active">Join Us Today</a></div>
-    </div>
-    <main class="form-class">
-          
-        <h2 class="no-card">Congratulations account created succesfully... Thanks for creating an account with us. We've sent you Confirmation mail, kindly check your mail inbox. </h2>   
-    </main>
+  <div class="header-content">
+    <img src="images/home.jpg" alt="Profile Image">
+    <div class="cta-btn"><a href="join.html">Join Us Today</a></div>
+  </div>
+  <div class="menu">
+    <button id="gridViewButton">⏹️Grid View</button>
+    <button id="listViewButton">📄List View</button>
+  </div>
+    <div id="membersContainer"></div>
     <footer>
-      <p>&copy;<span id="year"></span> David Michael Innocent | Ebonyi Nigerian</p>
+       <p>&copy;<span id="year"></span> David Michael Innocent | Ebonyi Nigerian</p>
       <p id="lastModified"></p>
       <br>
       <span id="phone">Call US: +2349038519171</span>
       <br>
       <span id="email">Email: mic23002@byui.edu</span>
-   </footer>
-   <script src="scripts/getDates.js"></script>
-   <script src="scripts/main.js"></script>
-  </body>
-  </html>
+    </footer>
+      <script src="scripts/getDates.js"></script>
+      <script src="scripts/main.js"></script>
+      <script src="scripts/json.js"></script>
+ </body>
+</html>
