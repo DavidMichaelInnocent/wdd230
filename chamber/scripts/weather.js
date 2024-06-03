@@ -51,10 +51,6 @@ async function apiFetch() {
     weatherIcon_3.setAttribute('alt', desc_3);
     captionDesc_3.textContent = `${desc_3}`;
   }
-
-
-  
-  
   
 //Banner
 // Check if the current day is Monday, Tuesday, or Wednesday
